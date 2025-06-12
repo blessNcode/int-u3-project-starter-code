@@ -1,13 +1,19 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
-/* 
+
 .option-one-screen, 
 .option-two-screen, 
-.option-one-end, 
-.option-two-end  {
+.option-three-end, 
+.option-four-end,
+.option-five-end,
+.option-six-end,
+.option-three,
+.option-four,
+.option-five,
+.option-six {
    display:none;
 }
-*/
+
 
 
 /* Feel free to change any of the styling below!*/
@@ -19,7 +25,11 @@ body {
 
 /* Style the body with a background color or image if desired */
 body {
-    font-family: Arial, sans-serif;
+    color:#ffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/016/439/645/large/anshu-kumar-final-render.jpg?1552170887');
+   background-size: cover;
+    background-repeat: no-repeat;
     background-color: #f0f0f0;
     text-align: center;
     padding: 20px;
@@ -27,15 +37,14 @@ body {
 
 /* Style the title of your story */
 .title {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 /* Style the story opening container */
 .story-opening {
-    background-color: #fff;
-    border: 1px solid #ccc;
+
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -46,6 +55,7 @@ body {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+
 }
 
 /* Style the story opening message */
@@ -81,7 +91,7 @@ button:hover {
 .option-two-screen,
 .option-one-end,
 .option-two-end {
-    background-color: #fff;
+    background-image: url('')
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
@@ -90,10 +100,8 @@ button:hover {
 }
 
 /* Style the images in the screens */
-.option-one-screen img,
-.option-two-screen img,
-.option-one-end img,
-.option-two-end img {
+img
+{
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
